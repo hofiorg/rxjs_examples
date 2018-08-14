@@ -1,5 +1,6 @@
 import {ajax as rxjs_ajax} from "rxjs/ajax";
 import {XMLHttpRequest} from "xmlhttprequest";
+import 'rxjs/add/operator/pluck';
 
 // ajax call without CORS check
 const ajax = url =>
@@ -7,6 +8,6 @@ const ajax = url =>
     url: 'http://localhost:3000/' + url,
     crossDomain: true,
     createXHR: () => new XMLHttpRequest()
-  }).map(data => data.response);
+  }).pluck('response');
 
 export { ajax };
