@@ -2,9 +2,12 @@
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-preset-latest": "^6.24.1",
-    "rxjs": "^6.2.2"
+    "json-server": "^0.14.0",
+    "rxjs": "^6.2.2",
+    "xmlhttprequest": "^1.8.0"
   },
   "dependencies": {
     "rxjs-compat": "^6.2.2"
-  }
+  },
+  "scripts": { "server" : "json-server --watch resources/examples.json" }
 }
