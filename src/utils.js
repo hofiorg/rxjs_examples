@@ -6,9 +6,7 @@ const ajax = url =>
   rxjs_ajax({
     url: 'http://localhost:3000/' + url,
     crossDomain: true,
-    createXHR: function () {
-      return new XMLHttpRequest();
-    }
+    createXHR: () => new XMLHttpRequest()
   }).map(data => data.response);
 
 export { ajax };
