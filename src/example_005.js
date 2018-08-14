@@ -5,6 +5,5 @@ import 'rxjs/add/operator/map';
 import {ajax} from "./utils";
 
 Observable
-  .fromPromise(ajax('http://localhost:3000/example_005'))
-  .map(data => data.response)
+  .fromPromise(ajax('example_005'))
   .subscribe(data => console.log(data.id));
