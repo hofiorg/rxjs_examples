@@ -6,3 +6,5 @@ let mymap = {
 };
 
 console.log(mymap);
+
+module.exports = mymap;
