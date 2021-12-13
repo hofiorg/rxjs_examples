@@ -1,4 +1,4 @@
-# rxjs_examples ![node_js workflow](https://github.com/hofiorg/rxjs_examples/actions/workflows/node.js.yml/badge.svg)
+# rxjs_examples &middot; ![node_js workflow](https://github.com/hofiorg/rxjs_examples/actions/workflows/node.js.yml/badge.svg)
 
 RxJS examples
 
