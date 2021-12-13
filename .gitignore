@@ -3,6 +3,5 @@ node_modules
 *.iml
 dist
 lib
-package-lock.json
 !/.idea/runConfigurations/*.xml
 !/.idea/runConfigurations/
